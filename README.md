@@ -26,7 +26,7 @@ title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
 name: "your name here" # 블로그 닉네임 설정
 description: "OOOOO DevLog" # 블로그 설명
-url: "https://github-account.github.io" # 블로그 URL
+url: "https://jeonghyunseok.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "github-account/github-account.github.io" # GitHub Repo 이름
 # logo : # 상단 헤더의 블로그 타이틀 앞에 로고 추가하고 싶을 경우 사용
@@ -52,27 +52,27 @@ author:
 <link
   rel="apple-touch-icon"
   sizes="180x180"
-  href="https://github-account.github.io/assets/images/favicon/apple-touch-icon.png"
+  href="https://jeonghyunseok.github.io/assets/images/favicon/apple-touch-icon.png"
 />
 <link
   rel="icon"
   type="image/png"
   sizes="32x32"
-  href="https://github-account.github.io/assets/images/favicon/favicon-32x32.png"
+  href="https://jeonghyunseok.github.io/assets/images/favicon/favicon-32x32.png"
 />
 <link
   rel="icon"
   type="image/png"
   sizes="16x16"
-  href="https://github-account.github.io/assets/images/favicon/favicon-16x16.png"
+  href="https://jeonghyunseok.github.io/assets/images/favicon/favicon-16x16.png"
 />
 <link
   rel="manifest"
-  href="https://github-account.github.io/assets/images/favicon/site.webmanifest"
+  href="https://jeonghyunseok.github.io/assets/images/favicon/site.webmanifest"
 />
 <link
   rel="mask-icon"
-  href="https://github-account.github.io/assets/images/favicon/safari-pinned-tab.svg"
+  href="https://jeonghyunseok.github.io/assets/images/favicon/safari-pinned-tab.svg"
   color="#5bbad5"
 />
 ```
@@ -277,7 +277,7 @@ plugins:
 User-agent: *
 Allow: /
 
-Sitemap: https://github-account.github.io/sitemap.xml
+Sitemap: https://jeonghyunseok.github.io/sitemap.xml
 ```
 
 ### ▪ 네이버 검색 등록 (서치어드바이저)
