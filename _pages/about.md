@@ -1,5 +1,5 @@
 ---
-title: "I'm Web Developer Jeong hyun seok👋🏻"
+title: "I'm Web Developer Jeong hyun Seok👋🏻"
 permalink: /about/
 layout: single
 comments: false
