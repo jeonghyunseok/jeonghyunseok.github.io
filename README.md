@@ -1,1 +1,1 @@
-jeonghyunseok jekyll template
+jeonghyunseok devlog jekyll template
