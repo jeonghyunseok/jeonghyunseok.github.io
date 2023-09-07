@@ -1,8 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
 <html lang="ko" class="no-js">
   <head>
-    <style>
-      ::-webkit-scrollbar {
+    <style> 
+      ::-webkit-scrollbar{ 
         width: 10px;
         height: 10px;
       }
@@ -36,271 +42,305 @@
         /* border-radius: 10px; */
       }
 
-      ::-webkit-scrollbar-button:start:decrement,
-      ::-webkit-scrollbar-button:end:increment {
-        width: 0px;
-        height: 0px;
-        /* background-color: rgb(14, 221, 24); */
-        /* border-radius: 50%; */
+      ::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+          width:0px;
+          height: 0px;
+          /* background-color: rgb(14, 221, 24); */
+          /* border-radius: 50%; */
       }
     </style>
+    
+    <meta charset="utf-8">
 
-    <meta charset="utf-8" />
+<!-- begin _includes/seo.html --><title>I’m Web Developer Jeong hyun Seok👋🏻 | Jeong Hyun Seok</title>
+<meta name="description" content="Developer Jeong’s Blog">
 
-    <!-- begin _includes/seo.html -->
-    <title>I’m Web Developer Jeong hyun Seok👋🏻 | Jeong Hyun Seok</title>
-    <meta name="description" content="Developer Jeong’s Blog" />
 
-    <meta name="author" content="Jeong Hyun Seok" />
+  <meta name="author" content="Jeong Hyun Seok">
+  
 
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="ko_KR" />
-    <meta property="og:site_name" content="Jeong's Devlog" />
-    <meta property="og:title" content="I’m Web Developer Jeong hyun Seok👋🏻" />
-    <meta property="og:url" content="http://localhost:4000/about/" />
 
-    <meta property="og:description" content="Developer Jeong’s Blog" />
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="Jeong's Devlog">
+<meta property="og:title" content="I’m Web Developer Jeong hyun Seok👋🏻">
+<meta property="og:url" content="http://localhost:4000/about/">
 
-    <link rel="canonical" href="http://localhost:4000/about/" />
 
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
+  <meta property="og:description" content="Developer Jeong’s Blog">
 
-        "@type": "Person",
-        "name": "Jeong's Devlog",
-        "url": "http://localhost:4000/"
-      }
-    </script>
 
-    <!-- end _includes/seo.html -->
 
-    <link
-      href="/feed.xml"
-      type="application/atom+xml"
-      rel="alternate"
-      title="Jeong's Devlog Feed"
-    />
 
-    <!-- https://t.co/dKP3o1e -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script>
-      document.documentElement.className =
-        document.documentElement.className.replace(/\bno-js\b/g, "") + " js ";
-    </script>
 
-    <!-- For all browsers -->
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"
-    />
 
-    <!--[if IE]>
-      <style>
-        /* old IE unsupported flexbox fixes */
-        .greedy-nav .site-title {
-          padding-right: 3em;
-        }
-        .greedy-nav button {
-          position: absolute;
-          top: 0;
-          right: 0;
-          height: 100%;
-        }
-      </style>
-    <![endif]-->
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/about/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Jeong's Devlog",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Jeong's Devlog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
 
     <!-- start custom head snippets -->
 
-    <!-- insert favicons. use https://realfavicongenerator.net/ -->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-    <!-- end custom head snippets -->
+<!-- end custom head snippets -->
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="https://jeonghyunseok.github.io/assets/images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="https://jeonghyunseok.github.io/assets/images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="https://jeonghyunseok.github.io/assets/images/favicon/favicon-16x16.png"
-    />
-    <link
-      rel="manifest"
-      href="https://jeonghyunseok.github.io/assets/images/favicon/site.webmanifest"
-    />
-    <link
-      rel="mask-icon"
-      href="https://jeonghyunseok.github.io/assets/images/favicon/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#ffc40d" />
-    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jeonghyunseok.github.io/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jeonghyunseok.github.io/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jeonghyunseok.github.io/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://jeonghyunseok.github.io/assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://jeonghyunseok.github.io/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
   </head>
 
   <body class="layout--single">
     <nav class="skip-links">
-      <h2 class="screen-reader-text">Skip links</h2>
-      <ul>
-        <li>
-          <a href="#site-nav" class="screen-reader-shortcut"
-            >Skip to primary navigation</a
-          >
-        </li>
-        <li>
-          <a href="#main" class="screen-reader-shortcut">Skip to content</a>
-        </li>
-        <li>
-          <a href="#footer" class="screen-reader-shortcut">Skip to footer</a>
-        </li>
-      </ul>
-    </nav>
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
-      <div class="notice--danger align-center" style="margin: 0">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience.
-      </div>
-    <![endif]-->
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
 
-    <div class="masthead">
-      <div class="masthead__inner-wrap">
-        <div class="masthead__menu">
-          <nav id="site-nav" class="greedy-nav">
-            <a class="site-title" href="/"> Jeong's Devlog </a>
-            <ul class="visible-links">
-              <li class="masthead__menu-item">
-                <a href="https://jeonghyunseok.github.io/">Home</a>
-              </li>
-              <li class="masthead__menu-item">
-                <a href="/about/">About</a>
-              </li>
-              <li class="masthead__menu-item">
-                <a href="https://github.com/jeonghyunseok">GitHub</a>
-              </li>
-            </ul>
+    
 
-            <button class="greedy-nav__toggle hidden" type="button">
-              <span class="visually-hidden">Toggle menu</span>
-              <div class="navicon"></div>
-            </button>
-            <ul class="hidden-links hidden"></ul>
-          </nav>
-        </div>
-      </div>
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Jeong's Devlog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://jeonghyunseok.github.io/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/jeonghyunseok">GitHub</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
     </div>
+  </div>
+</div>
+
 
     <div class="initial-content">
-      <div id="main" role="main">
-        <article
-          class="page"
-          itemscope
-          itemtype="https://schema.org/CreativeWork"
-        >
-          <meta
-            itemprop="headline"
-            content="I’m Web Developer Jeong hyun Seok👋🏻"
-          />
+      
 
-          <div class="page__inner-wrap">
-            <header>
-              <h1 id="page-title" class="page__title" itemprop="headline">
-                I’m Web Developer Jeong hyun Seok👋🏻
-              </h1>
-            </header>
 
-            <section class="page__content" itemprop="text">
-              <h1 id="정현석-포트폴리오">정현석 포트폴리오</h1>
 
-              <h3 id="-career">🍔 Career</h3>
+<div id="main" role="main">
+  
 
-              <h3 id="온디맨드랩-202110--20228">
-                온디맨드랩 (2021.10 -2022.8)
-              </h3>
 
-              <h5 id="매일새옷-웹-개발-세탁-o2o-서비스">
-                매일새옷 웹 개발( 세탁 O2O 서비스)
-              </h5>
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="I’m Web Developer Jeong hyun Seok👋🏻">
+    
+    
+    
 
-              <ol>
-                <li>Javascript, Nuxt.js, Vue.js를 활용한 프론트엔드 개발</li>
-                <li>
-                  매일새옷 사용자, 사장님광장 사이트 2개 프로젝트 프론트엔드
-                  초기 구축
-                </li>
-                <li>웹 앱으로 구축된 세탁 O2O서비스 유지 보수 및 개발 전반</li>
-                <li>Slack, Figma, Zeplin, Bitbucket을 통한 협업</li>
-              </ol>
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">I’m Web Developer Jeong hyun Seok👋🏻
+</h1>
+          
 
-              <h3 id="진학사-20198--20215">진학사 (2019.8 -2021.5)</h3>
 
-              <h5 id="채용공고-페이지기업회원-페이지-개발">
-                채용공고 페이지/기업회원 페이지 개발
-              </h5>
+        </header>
+      
 
-              <ol>
-                <li>
-                  Vue.js, Nuxt.js, node.js 를 활용한 프론트엔드, 백엔드 개발
-                </li>
-                <li>Jira, bitbucket, git 을 사용한 협업</li>
-                <li>채용 사이트 이력서 등록, 공고 페이지 개발</li>
-                <li>
-                  채용 사이트 기업회원용 대시보드, 공고등록, 인재풀 페이지 개발
-                </li>
-              </ol>
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="정현석-포트폴리오">정현석 포트폴리오</h1>
 
-              <h3 id="-education">🌭 Education</h3>
+<h3 id="-career">🍔 Career</h3>
 
-              <h3 id="고려대학교세종-201103---201702">
-                고려대학교(세종) (2011.03 - 2017.02)
-              </h3>
+<h3 id="온디맨드랩-202110--20228">온디맨드랩 (2021.10 -2022.8)</h3>
 
-              <h5 id="경영학부">경영학부 졸업</h5>
+<h5 id="매일새옷-웹-개발-세탁-o2o-서비스">매일새옷 웹 개발( 세탁 O2O 서비스)</h5>
 
-              <h3 id="비트캠프-201706---201711">
-                비트캠프 (2017.06 - 2017.11)
-              </h3>
+<ol>
+  <li>Javascript, Nuxt.js, Vue.js를 활용한 프론트엔드 개발</li>
+  <li>매일새옷 사용자, 사장님광장 사이트 2개 프로젝트 프론트엔드 초기 구축</li>
+  <li>웹 앱으로 구축된 세탁 O2O서비스 유지 보수 및 개발 전반</li>
+  <li>Slack, Figma, Zeplin, Bitbucket을 통한 협업</li>
+</ol>
 
-              <h5
-                id="server-side를-연동한-hybrid-웹-앱-응용-sw-엔지니어링-과정-java-spring"
-              >
-                Server side를 연동한 Hybrid 웹 앱 응용 SW 엔지니어링 과정 (JAVA,
-                SPRING)
-              </h5>
-            </section>
+<h3 id="진학사-20198--20215">진학사 (2019.8 -2021.5)</h3>
 
-            <footer class="page__meta"></footer>
-          </div>
-        </article>
-      </div>
+<h5 id="채용공고-페이지기업회원-페이지-개발">채용공고 페이지/기업회원 페이지 개발</h5>
+
+<ol>
+  <li>Vue.js, Nuxt.js, node.js 를 활용한 프론트엔드, 백엔드 개발</li>
+  <li>Jira, bitbucket, git 을 사용한 협업</li>
+  <li>채용 사이트 이력서 등록, 공고 페이지 개발</li>
+  <li>채용 사이트 기업회원용 대시보드, 공고등록, 인재풀 페이지 개발</li>
+</ol>
+
+<h3 id="-education">🌭 Education</h3>
+
+<h3 id="고려대학교세종-201103---201702">고려대학교(세종) (2011.03 - 2017.02)</h3>
+
+<h5 id="경영학부">경영학부</h5>
+
+<h3 id="비트캠프-201706---201711">비트캠프 (2017.06 - 2017.11)</h3>
+
+<h5 id="server-side를-연동한-hybrid-웹-앱-응용-sw-엔지니어링-과정-java-spring">Server side를 연동한 Hybrid 웹 앱 응용 SW 엔지니어링 과정 (JAVA, SPRING)</h5>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+
     </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
 
     <div id="footer" class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-        <div class="page__footer-copyright">
-          &copy; 2023 Jeong's Devlog. Powered by
-          <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
-          <a
-            href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"
-            rel="nofollow"
-            >Minimal Mistakes</a
-          >.
-        </div>
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Jeong's Devlog. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
       </footer>
     </div>
 
-    <script src="/assets/js/main.min.js"></script>
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>
